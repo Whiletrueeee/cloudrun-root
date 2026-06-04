@@ -1,0 +1,17 @@
+{
+  "name": "halal-trust-cloudrun-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Halal Trust WeChat CloudRun API server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "mysql2": "^3.11.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
